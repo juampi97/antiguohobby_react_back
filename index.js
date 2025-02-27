@@ -16,7 +16,7 @@ const client_secret = process.env.CLIENT_SECRET;
 const refresh_token = process.env.REFRESH_TOKEN;
 
 const api_ml_path = "https://api.mercadolibre.com";
-const api_path = process.env.API_PATH || `localhost:${port}`;
+// const api_path = process.env.API_PATH || `localhost:${port}`;
 
 // TO DO Pedir primero y mandarlo
 let ACCES_TOKEN = "";
